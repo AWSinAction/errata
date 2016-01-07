@@ -3,6 +3,7 @@ date = "2015-12-11"
 draft = false
 title = "CloudFormation UI has changed"
 section = "all"
+page = 0
 
 +++
 

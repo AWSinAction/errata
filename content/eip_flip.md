@@ -3,6 +3,7 @@ date = "2015-10-16"
 draft = false
 title = "Elastic IP flip causes short downtime"
 section = "3.6"
+page = 78
 
 +++
 

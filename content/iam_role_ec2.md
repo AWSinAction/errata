@@ -3,6 +3,7 @@ date = "2015-10-16"
 draft = false
 title = "Only one role can be attached to EC2 instance"
 section = "6.3.5"
+page = 163
 
 +++
 

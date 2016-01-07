@@ -2,7 +2,7 @@
 
 <section>
   <ul>
-    {{ range .Data.Pages }}
+    {{ range sort .Data.Pages "Params.page" "asc" }}
       <li>
         <h3>Section {{ .Params.section }}: {{ .Title }}</h3>
         <div>
