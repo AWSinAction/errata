@@ -32,6 +32,7 @@ chapter12/loadbalancer.json
 chapter14/url2png-loadtest.json
 chapter14/url2png.json
 chapter14/wordpress.json
+chapter14/wordpress-loadtest.json
 ```
 
 Example from chapter 2 ``chapter2/template.json``:
