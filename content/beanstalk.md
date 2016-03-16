@@ -7,7 +7,7 @@ page = 134
 
 +++
 
-The Node.js version must be pinned to `0.12.6` otherwise Etherpad will not work.
+The Node.js version must be pinned to `0.12.*` otherwise Etherpad will not work.
 
 ```
 $ aws elasticbeanstalk create-environment --environment-name etherpad --application-name etherpad --option-settings Namespace=aws:elasticbeanstalk:environment,OptionName=EnvironmentType,Value=SingleInstance --solution-stack-name "$SolutionStackName" --version-label 1.5.2
@@ -16,5 +16,5 @@ $ aws elasticbeanstalk create-environment --environment-name etherpad --applicat
 is not correct. It should be:
 
 ```
-$ aws elasticbeanstalk create-environment --environment-name etherpad --application-name etherpad --option-settings Namespace=aws:elasticbeanstalk:environment,OptionName=EnvironmentType,Value=SingleInstance Namespace=aws:elasticbeanstalk:container:nodejs,OptionName=NodeVersion,Value=0.12.6 --solution-stack-name "$SolutionStackName" --version-label 1.5.2
+$ aws elasticbeanstalk create-environment --environment-name etherpad --application-name etherpad --option-settings Namespace=aws:elasticbeanstalk:environment,OptionName=EnvironmentType,Value=SingleInstance Namespace=aws:elasticbeanstalk:container:nodejs,OptionName=NodeVersion,Value=0.12.10 --solution-stack-name "$SolutionStackName" --version-label 1.5.2
 ```
