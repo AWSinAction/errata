@@ -4,9 +4,55 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }}</title>
+    <style>
+      body {
+        font-size: 10pt;
+        margin: 1.5em;
+        background-color: white;
+        color: black;
+        font-family: Verdana,sans-serif;
+      }
+      h1 {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-top: 2em;
+      }
+      h2 {
+        font-size: 1.1em;
+        font-weight: bold;
+      }
+      fieldset {
+        width: 740px;
+        margin-bottom: 12px;
+        border: 2px #dddddd;
+        border-radius: 4px;
+        background-color: #FFFFFF;
+      }
+
+      fieldset div {
+        padding: 20px;
+        margin-bottom: 6px;
+        font-weight: normal;
+      }
+
+      legend {
+        border: 2px #dddddd;
+        border-radius: 4px;
+        font-size: 1.2em;
+        font-weight: bold;
+        background-color: #000000;
+        color: white;
+        padding: 10px 20px 10px 20px;
+      }
+      
+       
+         }
+    </style>
   </head>
   <body>
+    <a href="https://www.manning.com/books/amazon-web-services-in-action"><img id="cover" src="https://manning-content.s3.amazonaws.com/book/8/41a04cf-5d27-408a-bbf6-35d45f59df9d/Wittig-Amazon-HI.png" width="150" height="188" alt="booktitle"></a>
     <h1>{{ .Title }}</h1>
     <p>
-     Hi all! If you find any any errors in <a href="https://www.manning.com/books/amazon-web-services-in-action"><b><i>Amazon Web Services in Action</i></b></a> not listed below, or just find something that you think is not well explained, it would be most appreciated if you would post in the book's <a href="https://forums.manning.com/forums/amazon-web-services-in-action">Author Online Forum</a> so that they may be collected here for everyone's benefit. Thanks!
+      <italics>Last updated {{ .Site.LastChange.Format "2006-01-02" }}</italics><br><br>
+      Hi all! If you find any any errors in <a href="https://www.manning.com/books/amazon-web-services-in-action"><b><i>Amazon Web Services in Action</i></b></a> not listed below, or just find something that you think is not well explained, it would be most appreciated if you would post in the book's <a href="https://forums.manning.com/forums/amazon-web-services-in-action">Author Online Forum</a> so that they may be collected here for everyone's benefit. Thanks!
     </p>

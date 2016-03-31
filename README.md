@@ -21,3 +21,5 @@ Open http://localhost:1313/ to see the site.
 ```
 make build
 ```
+
+send file `./public/index.html` to suha@manning.com
