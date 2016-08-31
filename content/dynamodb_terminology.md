@@ -3,7 +3,7 @@ date = "2015-11-12"
 draft = false
 title = "New DynamoDB terminology"
 section = "10"
-page = 153
+page = 253
 
 +++
 
