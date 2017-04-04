@@ -16,5 +16,5 @@ $ aws elasticbeanstalk create-environment --environment-name etherpad --applicat
 is not correct. It should be:
 
 ```
-$ aws elasticbeanstalk create-environment --environment-name etherpad --application-name etherpad --option-settings Namespace=aws:elasticbeanstalk:environment,OptionName=EnvironmentType,Value=SingleInstance --solution-stack-name "$SolutionStackName" --version-label 1.5.2
+$ aws elasticbeanstalk create-environment --environment-name etherpad --application-name etherpad --option-settings "Namespace=aws:elasticbeanstalk:environment,OptionName=EnvironmentType,Value=SingleInstance" --solution-stack-name "$SolutionStackName" --version-label 1.5.2
 ```
