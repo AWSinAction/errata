@@ -4,22 +4,4 @@
 
 Hi all! If you find any any errors in [Amazon Web Services in Action](http://bit.ly/amazon-web-services-in-action) not listed, or just find something that you think is not well explained, it would be most appreciated if you would post in the book's [Author Online Forum](https://forums.manning.com/forums/amazon-web-services-in-action) so that they may be collected here for everyone's benefit. Thanks!
 
-## Using this project
-
-[Install Hugo](http://gohugo.io/overview/installing/) to build the site.
-
-### Run locally
-
-```
-make run
-```
-
-Open http://localhost:1313/ to see the site.
-
-### Generate HTML
-
-```
-make build
-```
-
-send file `./public/index.html` to Susan Harkins <suha@manning.com>
+Please find the errata for Amazon Web Services in Action at [manning.com](https://manning-content.s3.amazonaws.com/download/d/476d2cf-0da9-410b-94db-8d66358fed2d/Wittig_AmazonWebServicesinAction_Err7.html).
